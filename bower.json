@@ -1,0 +1,33 @@
+{
+  "name": "elzoido-messages",
+  "version": "0.1.0",
+  "main": "dist/elzoido-messages.js",
+  "license": "GPL-3.0+",
+  "dependencies": {
+    "angular": ">=1.2.10",
+    "lodash": "~2.4.1"
+  },
+  "ignore": [
+    ".*",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "app",
+    "config.coffee",
+    "package.json"
+  ],
+  "homepage": "http://github.com/marigan/elzoido-messages",
+  "authors": [
+    "Michal Mocnak <michal@marigan.net>"
+  ],
+  "description": "AngularJS Messages Module",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "directive",
+    "messages"
+  ],
+  "private": true
+}
