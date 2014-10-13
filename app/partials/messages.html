@@ -18,5 +18,7 @@
 #
 # Authors: Michal Mocnak <michal@marigan.net>
 -->
-
-<alert ng-repeat="alert in alerts" type="alert.type" close="close($index)"><strong>{{alert.title}}</strong> {{alert.message}}</alert>
+<div ng-repeat="alert in alerts" class="alert alert-{{alert.type}}" role="alert">
+    <button type="button" class="close" ng-click="close($index)"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+    <span style="margin-right: 20px;"><strong>{{alert.title}}</strong> {{alert.message}}</span>
+</div>
